@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/fons/fontawesome-free-6.5.2/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fons/fontawesome-free-6.5.2-web (1)/fontawesome-free-6.5.2-web/css/all.min.css">
   </head>
   <body>
     <!--Block Element Modifier -->
@@ -22,35 +22,54 @@
         <div class="grid">
             <nav class="header__navbar">
                 <ul class="header__navbar-list">
-                    <li class="header__navbar-item header__navbar-item--Meliodas">Kênh người bán</li>
-                    <li class="header__navbar-item header__navbar-item--Meliodas">tải ứng dụng</li>
+                    <li class="header__navbar-item  header__navbar-item--Meliodas">Kênh người bán</li>
+                    <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--Meliodas">
+                       tải ứng dụng
+
+                       <!-- Header qr code -->
+                       <div class="header-qr">
+                        <img src="./assets/img/qr code.png" alt="QR code" class="header-qr-img">
+                        <div class="header-qr-apps">
+                          <a href="" class="header-qr-link">
+                            <img src="./assets/img/google play.png" alt="Google play" class="header-qr-download-img">
+                          </a>
+                          
+                          <a href="" class="header-qr-link">
+                            <img src="./assets/img/store.png" alt="App store" class="header-qr-download-img">
+                          </a>
+
+                        </div>
+                       </div>
+                    </li>
                     <li class="header__navbar-item">
+                       <span class="header__navbar-title--no-pointer">
                         kết nối
-                        <a href="" class="header__navbar-item-link">
+                       </span>
+                        <a href="" class="header__navbar-icon-link">
                             <i class="header__navbar-icon fa-brands fa-facebook"></i>
                         </a>
 
-                        <a href="" class="header__navbar-item-link">
+                        <a href="" class="header__navbar-icon-link">
                             <i class="header__navbar-icon fa-brands fa-instagram"></i>
                         </a>
                     </li>
                 </ul>
                 
                 <ul class="header__navbar-list">
-                    <li class="header__navbar-icon">
-                        <a href="" class="header__navbar-icon-link">
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
                             <i class="header__navbar-icon fa-regular fa-bell"></i>
                             thông báo
                         </a>
                  </li>
-                    <li class="header__navbar-icon">
-                        <a href="" class="header__navbar-icon-link">
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
                             <i class="header__navbar-icon fa-thin fa-question"></i>
                             hỗ trợ
                         </a>
                     </li>
-                    <li class="header__navbar-icon header__navbar-icon--Meliodas">Sign in</li>
-                    <li class="header__navbar-icon">Log out</li>
+                    <li class="header__navbar-item header__navbar-item--Meliodas">Sign in</li>
+                    <li class="header__navbar-item">Log out</li>
                 </ul>
             </nav>
         </div>
