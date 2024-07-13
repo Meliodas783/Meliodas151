@@ -29,3 +29,14 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+/* Animation */
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
